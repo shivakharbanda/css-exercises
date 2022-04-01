@@ -2,13 +2,66 @@
 
 body {
   height: 100vh;
-  margin: 0;
+  margin: 0px;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
+
+
+button {
+  padding: 8px 16px;
+}
+
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
+  justify-content: space-evenly;
+  color: #666;
+  
+}
+.header a, .footer a {
+  text-decoration: none;
+  color: #666;
+}
+.footer{
+  text-decoration: none;
+  background-color: #eeeeee;
+  margin-top: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+button {size: 1000px;}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 
 img {
   width: 600px;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-self: center;
 }
 
 button {
